@@ -20,6 +20,24 @@ The project analyzes sales performance, order trends, product categories, paymen
 
 ---
 
+# Key Business Insights
+
+- Critical Retention Gap: Repeat customer rate is just 3.12%, highlighting heavy reliance on new customer acquisition.
+
+- Credit Card Dominance: Credit cards account for 78.34% ($12.54M) of total revenue, followed by Boleto at 17.92% ($2.87M) and Vouchers at 1.36% ($0.22M).
+
+- SP Regional Concentration: São Paulo dominates with 42K customers (15K in SP city alone), generating over triple the customers of second-ranked Rio de Janeiro (13K).
+
+- Weekday Ordering Bias: 77.02% of orders occur on weekdays compared to just 22.98% on weekends.
+
+- Top Product Categories: Top revenue drivers are health_beauty, watches_gifts, and bed_bath_table.
+
+- High Customer Ratings: Average review score stays strong at 4.08/5 across 96.1K customers and 99.4K orders.
+
+- Basket Metrics: Average Order Value stands at $159.33, with an Average Customer Spend of $164.87 across 135K total items sold.
+
+---
+
 # Project Overview
 
 This project analyzes Olist's Brazilian e-commerce data using SQL and Power BI.
@@ -62,10 +80,6 @@ Revenue and order volume were analyzed across monthly and quarterly periods to i
 ### Product Categories
 
 Product categories were compared based on total sales to identify the categories contributing most to Olist's revenue.
-
-### Customer Segmentation
-
-Customers were segmented based on purchasing behavior to identify groups such as New Customers, Loyal Customers, Champions, and At-Risk Customers.
 
 ### Payment Behavior
 
@@ -111,17 +125,13 @@ The SQL analysis was performed using MySQL.
 
 The complete analysis is available in:
 
-`sql/02_business_analysis.sql`
+`sql/business_analysis.sql`
 
 ---
 
 # Data Quality
 
 Initial data-quality checks were performed before the business analysis, including checks for potential inconsistencies in customer city and state data.
-
-The checks are available in:
-
-`sql/01_data_quality.sql`
 
 ---
 
@@ -164,8 +174,7 @@ Brazilian-E-Commerce-Analysis-O-list/
 ├── README.md
 │
 ├── sql/
-│   ├── 01_data_quality.sql
-│   └── 02_business_analysis.sql
+│   └── business_analysis.sql
 │
 ├── dashboard/
 │   ├── olist_ecommerce_dashboard.pbit
