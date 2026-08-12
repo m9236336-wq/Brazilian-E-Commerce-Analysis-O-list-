@@ -49,7 +49,6 @@ The analysis focuses on:
 - Product category performance
 - Average Order Value (AOV)
 - Payment methods
-- Customer segmentation
 - Customer purchasing behavior
 
 ### Workflow
@@ -67,23 +66,6 @@ Olist Dataset → SQL EDA → Business Analysis → Power BI → DAX → Dashboa
 - What is the Average Order Value?
 - How does AOV vary by payment method?
 - How does AOV vary across product categories?
-- What does customer segmentation reveal about customer behavior?
-
----
-
-# Key Insights
-
-### Sales Performance
-
-Revenue and order volume were analyzed across monthly and quarterly periods to identify changes in Olist's sales performance over time.
-
-### Product Categories
-
-Product categories were compared based on total sales to identify the categories contributing most to Olist's revenue.
-
-### Payment Behavior
-
-Average Order Value was compared across payment methods to identify differences in purchasing behavior.
 
 ---
 
@@ -129,12 +111,6 @@ The complete analysis is available in:
 
 ---
 
-# Data Quality
-
-Initial data-quality checks were performed before the business analysis, including checks for potential inconsistencies in customer city and state data.
-
----
-
 # Dataset
 
 The project uses the Brazilian E-Commerce Public Dataset by Olist.
@@ -161,7 +137,7 @@ The original dataset is not included in this repository.
 |---|---|
 | MySQL | SQL analysis and EDA |
 | Power BI | Dashboard and visualization |
-| DAX | Measures and customer segmentation |
+| DAX | Measures |
 | GitHub | Version control and documentation |
 
 ---
